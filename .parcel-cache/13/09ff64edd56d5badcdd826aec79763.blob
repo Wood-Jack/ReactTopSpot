@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>San Diego Top Spots</title>
+  <link rel="stylesheet" href="5bc2c1fa358aad0f4894814a50a14156" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="82cc6c7db50bf8e8109836afd8b91af9">
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="1f84cc942001ea8b02158088bee1111a"></script>
+</body>
+
+</html>
