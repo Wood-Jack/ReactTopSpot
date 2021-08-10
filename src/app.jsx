@@ -27,19 +27,20 @@ class App extends Component {
 
   render() {
 
+
     return (
       <div className='App container'>
-        <div className='col 8'>
+        <div className='subContainer  text-center'>
           <h1>San Diego Top Spots</h1>
           <h3>A list of the top 30 places to see in San Diego, California.</h3>
           { this.state.topspots.map((topspot) =>(
-            <TopSpot
+            <TopSpot 
               key={topspot.id}
               name={topspot.name}
               description={topspot.description}
               location={topspot.location}
               />
-          ))}
+          ))} 
 
         </div>
       </div>

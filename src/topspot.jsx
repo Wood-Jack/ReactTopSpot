@@ -7,10 +7,15 @@ function TopSpot(props){
     const url = `https://maps.google.com/?q=${lat},${lon}`;
     
     return(
-    <div className='well p-4 m-3'>
+
+    <div className='well '>
         <h4>{props.name}</h4>
         <p>{props.description}</p>
-    </div>)
+        <a target="_blank" herf={ url }
+         className= "btn btn-primary buttons p-2 "> 
+         Look at on Google maps
+        </a>
+    </div>
+    )};
 
-
-};
+export default TopSpot;
